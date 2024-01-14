@@ -4,6 +4,8 @@ resource "azurerm_resource_group" "rg" {
 
 }
 
+/*
+
 resource "azurerm_virtual_network" "Vnet-tf" {
   name                = var.network
   location            = var.location
@@ -19,6 +21,6 @@ resource "azurerm_virtual_network" "Vnet-tf" {
     name           = "subnet2"
     address_prefix = "10.0.2.0/24"
   }
-
- 
 }
+
+*/
