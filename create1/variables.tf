@@ -1,5 +1,5 @@
 variable "resource_group" {
-  default     = "RG-VPN"
+  default     = "RG-VPNS"
   description = "This is use for resource group"
 
 }
